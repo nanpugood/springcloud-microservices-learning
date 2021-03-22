@@ -7,6 +7,15 @@
 
 内容持续更新中......
 -----------------------------------
+<table>
+    <tr>
+        <td><center><strong>微服务架构图</strong></center></td>
+	</tr>
+    <tr>
+        <td><img width=300px height=300px alt="微服务架构图" src="https://github.com/nanpugood/springcloud-microservices-learning/blob/main/doc/proImage/microservices.jpg"/></td>
+    </tr>	
+</table>
+
 
 问题反馈
 -----------------------------------
