@@ -1,0 +1,20 @@
+server:
+  port: 7000
+
+spring:
+  application:
+    name: user-center
+#  boot:
+#    admin:
+#      client:
+#        enabled: 
+#        url:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.35.53:8848    
+#  cloud:
+#    nacos:
+#      discovery:
+#        metadata:
+#          version: zlt

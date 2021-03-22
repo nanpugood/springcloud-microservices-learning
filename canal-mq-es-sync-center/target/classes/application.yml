@@ -1,0 +1,32 @@
+spring:
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      cluster-nodes: 192.168.35.54:9300  
+  rabbitmq:
+    host: 192.168.35.55
+    port: 5672
+    virtual-host: zhcw
+    username: admin
+    password: admin
+    publisher-confirms: true
+    publisher-returns: true
+    template:
+      #开启强制投递，消息未被路由至任何一个queue，则回退一条消息到RabbitTemplate.ReturnCallback中的returnedMessage
+      mandatory: true
+    connection-timeout: 1000000
+    #消费端配置
+    listener:
+        simple:
+          #线程配置
+          #最小线程数
+          concurrency: 5
+          #最大线程数
+          max-concurrency: 10
+          #手动签收
+          acknowledge-mode: manual
+          #限流配置
+          prefetch: 1
+          default-requeue-rejected: false
+

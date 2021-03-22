@@ -1,0 +1,10 @@
+server:
+  port: 5801
+
+spring:
+  application:
+    name: canal-sync-center
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.35.53:8848    

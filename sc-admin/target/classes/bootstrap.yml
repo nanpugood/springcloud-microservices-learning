@@ -1,0 +1,43 @@
+server:
+  port: 6500
+
+spring:
+  application:
+    name: sc-admin
+  security:
+    user:
+      name: 'admin'
+      password: 'admin'
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        metadata:
+          user.name: ${spring.security.user.name}
+          user.password: ${spring.security.user.password}
+          
+  mail:
+    #邮箱服务器地址
+    host: mail.zhcw.com
+    #用户名
+    username: weichangliang@zhcw.com
+    #密码
+    password: light123@163.cn
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: false
+            required: false          
+  boot:
+    admin:
+      ui:
+        #登录页显示
+        title: '中彩网服务监控平台' 
+      notify:
+        mail:
+          #谁发送的
+          from: weichangliang@zhcw.com
+          #发送给谁
+          to: 1048943277@qq.com          

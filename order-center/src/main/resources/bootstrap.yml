@@ -1,0 +1,15 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: order-center
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.35.53:8848    
+#  cloud:
+#    nacos:
+#      discovery:
+#        metadata:
+#          version: zlt

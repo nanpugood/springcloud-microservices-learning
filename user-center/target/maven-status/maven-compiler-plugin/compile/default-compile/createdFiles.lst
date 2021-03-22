@@ -1,0 +1,12 @@
+com\central\user\model\SysUser.class
+com\central\user\service\impl\SuperServiceImpl.class
+com\central\user\mapper\SysUserMapper.class
+com\central\user\service\impl\SysUserServiceImpl.class
+com\central\user\service\ISuperService.class
+com\central\UserCenterApp.class
+com\central\user\service\SysUserService.class
+com\central\user\model\SuperEntity.class
+com\central\user\controller\SysUserController.class
+com\central\user\model\SysRole.class
+com\central\user\config\SuperMapper.class
+com\central\user\feign\RemoteFeignClient.class
