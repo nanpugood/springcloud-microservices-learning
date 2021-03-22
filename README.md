@@ -2,7 +2,7 @@
 一套涵盖大部分核心组件使用的Spring Cloud教程，包含微服务主流架构组件。<br/>
 包括Spring Cloud Alibaba及分布式事务Seata;<br/>
 全文检索ES,MYSQL同步组件CANAL，消息一致性队列:RabbitMQ;<br/>
-分布式锁zookeeper及redission<br/>;
+分布式锁zookeeper及redisson<br/>;
 服务监控Springbootadmin，链路监控Skywalking等。
 
 内容持续更新中......
