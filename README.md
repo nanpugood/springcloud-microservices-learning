@@ -1,0 +1,2 @@
+# springcloud-microservices-learning
+一套涵盖大部分核心组件使用的Spring Cloud教程，包含微服务主流架构：包括Spring Cloud Alibaba及分布式事务Seata，全文检索ES,MYSQL同步组件CANAL，消息一致性队列:RabbitMQ，分布式锁zookeeper及reddsion
